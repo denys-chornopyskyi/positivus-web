@@ -19,39 +19,38 @@
             loading="lazy"
           />
         </a>
-        <div class="header__menu hidden-mobile">
-          <nav class="header__menu">
-            <ul class="header__menu-list">
-              <li class="header__menu-item">
-                <a href="" class="header__menu-link">About us</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="" class="header__menu-link">Services</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="" class="header__menu-link">Use Cases</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="" class="header__menu-link">Pricing</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="" class="header__menu-link">Blog</a>
-              </li>
-            </ul>
-          </nav>
-          <button
-            class="header__button button button--transparent hidden-mobile"
-            type="button"
-          >
-            Request a quote
-          </button>
-          <button
-            class="header__burger-menu burger-menu visible-mobile"
-            onclick="mobileOverlay.showModal()"
-          >
-            <span class="visually-hidden">Open navigation menu</span>
-          </button>
-        </div>
+
+        <nav class="header__menu hidden-mobile">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">About us</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">Services</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">Use Cases</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">Pricing</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="header__button button button--transparent hidden-mobile"
+          type="button"
+        >
+          Request a quote
+        </button>
+        <button
+          class="header__burger-menu burger-menu visible-mobile"
+          onclick="mobileOverlay.showModal()"
+        >
+          <span class="visually-hidden">Open navigation menu</span>
+        </button>
       </div>
     </header>
     <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
