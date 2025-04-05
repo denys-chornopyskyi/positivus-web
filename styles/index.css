@@ -460,7 +460,7 @@ h4 {
             column-gap: 20px;
   }
 }
-f .header__menu-link {
+dsfs f d .header__menu-link {
   height: 48px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -471,16 +471,16 @@ f .header__menu-link {
   position: relative;
 }
 @media (hover: hover) {
-  f .header__menu-link:hover::after {
+  dsfs f d .header__menu-link:hover::after {
     width: 100%;
   }
 }
 @media (hover: none) {
-  f .header__menu-link:active::after {
+  dsfs f d .header__menu-link:active::after {
     width: 100%;
   }
 }
-f .header__menu-link::after {
+dsfs f d .header__menu-link::after {
   content: "";
   position: absolute;
   top: 100%;
