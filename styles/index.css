@@ -460,7 +460,7 @@ h4 {
             column-gap: 20px;
   }
 }
-.header__menu-link {
+f .header__menu-link {
   height: 48px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -471,16 +471,16 @@ h4 {
   position: relative;
 }
 @media (hover: hover) {
-  .header__menu-link:hover::after {
+  f .header__menu-link:hover::after {
     width: 100%;
   }
 }
 @media (hover: none) {
-  .header__menu-link:active::after {
+  f .header__menu-link:active::after {
     width: 100%;
   }
 }
-.header__menu-link::after {
+f .header__menu-link::after {
   content: "";
   position: absolute;
   top: 100%;
