@@ -460,7 +460,7 @@ h4 {
             column-gap: 20px;
   }
 }
-dsfs f d .header__menu-link {
+dfksdjfk f d .header__menu-link {
   height: 48px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -471,16 +471,16 @@ dsfs f d .header__menu-link {
   position: relative;
 }
 @media (hover: hover) {
-  dsfs f d .header__menu-link:hover::after {
+  dfksdjfk f d .header__menu-link:hover::after {
     width: 100%;
   }
 }
 @media (hover: none) {
-  dsfs f d .header__menu-link:active::after {
+  dfksdjfk f d .header__menu-link:active::after {
     width: 100%;
   }
 }
-dsfs f d .header__menu-link::after {
+dfksdjfk f d .header__menu-link::after {
   content: "";
   position: absolute;
   top: 100%;
