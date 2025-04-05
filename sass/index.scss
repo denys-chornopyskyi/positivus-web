@@ -6,4 +6,8 @@
         './utils',
         './globals';
 
-@import './components/button','./components/header';
+@import './components/button',
+        './components/burger-button',
+        './components/header',
+        './components/cross-button',
+        './components/mobile-overlay';
