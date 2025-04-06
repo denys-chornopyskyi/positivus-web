@@ -47,6 +47,8 @@
       align-items: center;
       column-gap: 40px;
 
+
+      
       @include desktop {
         column-gap: 20px;
       }
