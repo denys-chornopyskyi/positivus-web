@@ -1,4 +1,7 @@
 .review-card {
+  --reviewCardCornerWidth: 40px;
+  --reviewCardCornerOffsetLeft: 52px;
+
   display: flex;
   flex-direction: column;
   row-gap: 48px;
@@ -6,19 +9,37 @@
   &__body {
     border: 1px solid var(--color-accent);
     border-radius: var(--border-radius-larger);
-    padding: 48px 52px 52px;
+    padding: 48px var(--reviewCardCornerWidth) 52px;
     position: relative;
 
     &::after {
-      @include square(40px);
+      @include square(var(--reviewCardCornerWidth));
 
       content: '';
       border: inherit;
+      position: absolute;
       top: 100%;
-      left: 0;
+      left: var(--reviewCardCornerOffsetLeft);
+      translate: 0 -53%;
+
       background-color: var(--color-dark);
       rotate: 45deg;
       clip-path: polygon(100% 0, 0 100%, 100% 100%);
     }
+  }
+
+  &__name,
+  &__company {
+    font-style: normal;
+  }
+
+  &__name {
+    color: var(--color-accent);
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: calc(var(--reviewCardCornerOffsetLeft) + var(--reviewCardCornerWidth) / 2);
   }
 }
