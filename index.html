@@ -1162,7 +1162,112 @@
           </div>
         </div>
       </section>
+      <section class="section container">
+        <header class="section__header">
+          <h2 class="section__title">Contact Us</h2>
+          <div class="section__description">
+            <p>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="contact-us">
+            <form class="contact-us__form">
+              <fieldset class="contact-us__request-type radios">
+                <legend class="radios__title visually-hidden">
+                  Request type
+                </legend>
+                <label class="radios__item radio">
+                  <input
+                    type="radio"
+                    name="request-type"
+                    class="radio__input visually-hidden"
+                    value="Say Hi"
+                    checked
+                  />
+                  <span class="radio__emulator"></span>
+                  <span class="radio__label">Say Hi</span>
+                </label>
+                <label class="radios__item radio">
+                  <input
+                    type="radio"
+                    name="request-type"
+                    class="radio__input visually-hidden"
+                    value="Get a Quote"
+                  />
+                  <span class="radio__emulator"></span>
+                  <span class="radio__label">Get a Quote</span>
+                </label>
+              </fieldset>
+              <div class="contact-us__body">
+                <div class="contact-us__field field">
+                  <label class="field__label" for="name">Name</label>
+                  <input
+                    type="text"
+                    class="field__input"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="contact-us__field field">
+                  <label class="field__label" for="email">Email*</label>
+                  <input
+                    type="text"
+                    class="field__input"
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="contact-us__field field">
+                  <label class="field__label" for="massage">Massage*</label>
+                  <textarea
+                    type="text"
+                    class="field__input field__input--textarea"
+                    name="massage"
+                    id="massage"
+                    placeholder="Massage"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <button class="contact-us__button button" type="submit">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer container">
+      <div class="footer__inner">
+        <div class="footer__navigation">
+          <a href="#" class="header__logo logo">
+            <img
+              src="./images/logo-light.svg"
+              alt="Positivus"
+              class="header__logo-image"
+              width="180px"
+              height="29"
+              loading="lazy"
+            />
+          </a>
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link"></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__soc1als soc1als"></div>
+        </div>
+        <div class="footer__body"></div>
+        <div class="footer__extra"></div>
+      </div>
+    </footer>
 
     <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
       <form class="mobile-overlay__close-button-wrapper" method="dialog">

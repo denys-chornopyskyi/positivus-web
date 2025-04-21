@@ -6,7 +6,10 @@
         './utils',
         './globals';
 
-@import './components/button',
+@import './components/field',
+        './components/radios',        
+        './components/radio',
+        './components/button',
         './components/burger-button',
         './components/grid',
         './components/header',
@@ -24,4 +27,5 @@
         './components/team-card',
         './components/pagination',
         './components/reviews',
-        './components/review-card';
+        './components/review-card',
+        './components/contact-us';

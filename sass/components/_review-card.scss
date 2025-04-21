@@ -2,6 +2,10 @@
   --reviewCardCornerWidth: 40px;
   --reviewCardCornerOffsetLeft: 52px;
 
+  @include mobile {
+    --reviewCardCornerOffsetLeft: 43px;
+  }
+
   display: flex;
   flex-direction: column;
   row-gap: 48px;
@@ -11,6 +15,10 @@
     border-radius: var(--border-radius-larger);
     padding: 48px var(--reviewCardCornerWidth) 52px;
     position: relative;
+
+    @include mobile {
+      padding: 30px;
+    }
 
     &::after {
       @include square(var(--reviewCardCornerWidth));
