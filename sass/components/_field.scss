@@ -1,4 +1,12 @@
 .field {
+  --fieldInputHeight: var(--input-height);
+  --fieldInputTextColor: var(--color-dark);
+  --fieldInputBgColor: var(--color-ligth);
+  --fieldInputBorderColor: var(--color-dark);
+
+
+
+
   display: flex;
   flex-direction: column;
   row-gap: 7px;
@@ -6,10 +14,11 @@
 
   &__input {
     width: 100%;
-    height: var(--input-height);
+    height: var(--fieldInputHeight);
     border: var(--border);
     border-radius: var(--border-radius);
     padding-inline: 30px;
+    color: var(--fieldInputTextColor);
 
     @include hover {
       background-color: var(--color-accent)
@@ -41,6 +50,15 @@
 
   &__label {
     @include fluid-text(16,14);
+  }
+
+  &--dark-bg{
+    --fieldInputBgColor: var(--color-dark-alt);
+    --fieldInputBorderColor: var(--color-ligh);
+  }
+
+  &--big-height {
+    --fieldInputHeight: var(--button-height)
   }
 
 }
